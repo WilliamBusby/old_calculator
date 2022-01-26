@@ -1,0 +1,16 @@
+
+// Mixins
+
+// Orange buttons
+@mixin orange-buttons {
+  background-color: orange;
+  color: white;
+}
+
+@mixin button-sizings {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+}

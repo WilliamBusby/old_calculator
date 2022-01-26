@@ -1,0 +1,158 @@
+body #remove {
+  grid-area: remove;
+}
+body #plusMinus {
+  grid-area: plusMinus;
+}
+body #percent {
+  grid-area: percent;
+}
+body #divide {
+  grid-area: divide;
+}
+body #multiply {
+  grid-area: multiply;
+}
+body #minus {
+  grid-area: minus;
+}
+body #plus {
+  grid-area: plus;
+}
+body #equal {
+  grid-area: equal;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  width: 150px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+body #nine {
+  grid-area: nine;
+}
+body #eight {
+  grid-area: eight;
+}
+body #seven {
+  grid-area: seven;
+}
+body #six {
+  grid-area: six;
+}
+body #five {
+  grid-area: five;
+}
+body #four {
+  grid-area: four;
+}
+body #three {
+  grid-area: three;
+}
+body #two {
+  grid-area: two;
+}
+body #one {
+  grid-area: one;
+}
+body #zero {
+  grid-area: zero;
+  width: 350px;
+  text-align: left;
+  padding-left: 60px;
+  border-radius: 80px;
+}
+body #decimal {
+  grid-area: decimal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  overflow-x: hidden;
+  height: 100vh;
+  width: 300px;
+  display: grid;
+  grid-template-rows: 0.8fr 4fr;
+  background-color: black;
+  margin: 0 auto;
+}
+body #output {
+  color: white;
+  text-align: right;
+  margin: 0 auto;
+  width: 300px;
+  height: 90px;
+}
+body #output__big {
+  font-size: 30px;
+  height: 30px;
+  margin-top: 20px;
+}
+body #output__small {
+  font-size: 20px;
+  height: 20px;
+}
+body #buttons {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "remove plusMinus percent divide" "seven eight nine multiply" "four five six minus" "one two three plus" "zero zero decimal equal";
+  gap: 20px;
+  align-items: center;
+  width: 300px;
+  height: 405px;
+  margin: 0 auto;
+  vertical-align: center;
+  margin-top: 40px;
+}
+body #buttons .lightgrey {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+  background-color: lightgray;
+  color: black;
+}
+body #buttons .functions {
+  background-color: orange;
+  color: white;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+}
+body #buttons .numbers {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+  background-color: gray;
+  color: white;
+}
+body #buttons #zero {
+  grid-area: zero;
+  width: 150px;
+  text-align: left;
+  padding-left: 30px;
+  border-radius: 30px;
+}
+body #buttons #equal {
+  grid-area: equal;
+  background-color: orange;
+  color: white;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+}

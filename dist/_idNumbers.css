@@ -1,0 +1,68 @@
+body #remove {
+  grid-area: remove;
+}
+body #plusMinus {
+  grid-area: plusMinus;
+}
+body #percent {
+  grid-area: percent;
+}
+body #divide {
+  grid-area: divide;
+}
+body #multiply {
+  grid-area: multiply;
+}
+body #minus {
+  grid-area: minus;
+}
+body #plus {
+  grid-area: plus;
+}
+body #equal {
+  grid-area: equal;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  width: 150px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+body #nine {
+  grid-area: nine;
+}
+body #eight {
+  grid-area: eight;
+}
+body #seven {
+  grid-area: seven;
+}
+body #six {
+  grid-area: six;
+}
+body #five {
+  grid-area: five;
+}
+body #four {
+  grid-area: four;
+}
+body #three {
+  grid-area: three;
+}
+body #two {
+  grid-area: two;
+}
+body #one {
+  grid-area: one;
+}
+body #zero {
+  grid-area: zero;
+  width: 350px;
+  text-align: left;
+  padding-left: 60px;
+  border-radius: 80px;
+}
+body #decimal {
+  grid-area: decimal;
+}

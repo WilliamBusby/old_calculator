@@ -1,0 +1,92 @@
+@use "variables" as *;
+
+@import "./idNumbers";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+// html {
+//   height: 100vh;
+// }
+
+body {
+  overflow-x: hidden;
+  height: 100vh;
+  width: 300px;
+  display: grid;
+  grid-template-rows: 0.8fr 4fr;
+  // padding: 5px;
+  background-color: black;
+  margin: 0 auto;
+
+  #output {
+    &__big {
+      font-size: 30px;
+      height: 30px;
+      margin-top: 20px;
+    }
+    &__small {
+      font-size: 20px;
+      height: 20px;
+    }
+    color: white;
+    text-align: right;
+    margin: 0 auto;
+    width: 300px;
+    height: 90px;
+  }
+
+  #buttons {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "remove plusMinus percent divide"
+    "seven eight nine multiply"
+    "four five six minus"
+    "one two three plus"
+    "zero zero decimal equal";
+    gap: 20px;
+    align-items: center;
+    width: 300px;
+    height: 405px;
+    margin: 0 auto;
+    vertical-align: center;
+    margin-top: 40px;
+
+    .lightgrey {
+      @include button-sizings;
+      background-color: lightgray;
+      color: black;
+    }
+
+    .functions {
+      @include orange-buttons;
+      @include button-sizings;
+    }
+
+    .numbers {
+      @include button-sizings;
+      background-color: gray;
+      color: white;
+    }
+
+    #zero {
+      grid-area: zero;
+      width: 150px;
+      text-align: left;
+      padding-left: 30px;
+      border-radius: 30px;
+    }
+
+    #equal {
+      grid-area: equal;
+      @include orange-buttons;
+      @include button-sizings;
+    }
+  }
+}
