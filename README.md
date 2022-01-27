@@ -14,7 +14,7 @@ Very minor responsiveness added at min-width 600px and 990px to show additional 
 ## Files
 Contains: 
   - index.html containing the full html code used to create the website.
-  - style.scss and _idNumbers.scss containing SCSS code compiled into style.css file.
+  - style.scss, _variables.scss, and _idNumbers.scss containing SCSS code compiled into style.css file.
   - style.css containing the styling of the website.
   - app.js containing the Javascript and all functions used for the website.
 
