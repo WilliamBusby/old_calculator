@@ -25,8 +25,8 @@ Please include the title of this respository in the subject.
 ## Screenshots of website
 Mobile View
 
-![Mobile View Of Site](https://github.com/WilliamBusby/old_calculator/blob/main/Image_Assets/Mobile_View.PNG?raw=true)
+![Mobile View Of Site](https://github.com/WilliamBusby/old_calculator/blob/master/Image_Assets/Mobile_View.PNG?raw=true)
 
 Desktop View
 
-![Desktop View Of Site](https://github.com/WilliamBusby/old_calculator/blob/main/Image_Assets/Desktop_View.PNG?raw=true)
+![Desktop View Of Site](https://github.com/WilliamBusby/old_calculator/blob/master/Image_Assets/Desktop_View.PNG?raw=true)
