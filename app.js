@@ -103,6 +103,7 @@ const additionalButtonsEvent = (buttonId) => {
   }
   displayOutput(outputNumber);
 }
+
 // Calculate function used within equals
 
 const calculate = () => {
